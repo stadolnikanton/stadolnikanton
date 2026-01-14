@@ -1,12 +1,12 @@
 ```bash
 ╔═══════════════════════════════════════════════════════════╗
 ║                                                           ║
-║   ███████╗████████╗ █████╗ ██████╗  ██████╗ ██╗     ██╗███╗   ██╗██╗  ██╗
-║   ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔═══██╗██║     ██║████╗  ██║██║ ██╔╝
-║   ███████╗   ██║   ███████║██║  ██║██║   ██║██║     ██║██╔██╗ ██║█████╔╝ 
-║   ╚════██║   ██║   ██╔══██║██║  ██║██║   ██║██║     ██║██║╚██╗██║██╔═██╗ 
-║   ███████║   ██║   ██║  ██║██████╔╝╚██████╔╝███████╗██║██║ ╚████║██║  ██╗
-║   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
+║   ███████╗████████╗ █████╗ ██████╗  ██████╗ ██╗     ███╗   ██ ██╗██╗  ██╗
+║   ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔═══██╗██║     ████╗  ██║██║██║ ██╔╝
+║   ███████╗   ██║   ███████║██║  ██║██║   ██║██║     ██╔██╗ ██║██║█████╔╝ 
+║   ╚════██║   ██║   ██╔══██║██║  ██║██║   ██║██║     ██║╚██╗██║██║██╔═██╗ 
+║   ███████║   ██║   ██║  ██║██████╔╝╚██████╔╝███████╗██║ ╚████║██║██║  ██╗
+║   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚══════╝╝ ╚═══╗╚═══╝╚═╝   ╚═╝
 ║                                                           ║
 ║              [ BACKEND DEVELOPER ]                        ║
 ║              [ PYTHON | FASTAPI | DOCKER ]                ║
@@ -38,8 +38,9 @@ $ cat about_me.txt
 > [*] Python Backend Developer
 > [*] Building reliable backend systems since 2024
 > [*] Linux enthusiast | Docker advocate
-> [*] Course progress: [████████████████████████████████░░░░░░░░] 46/53
-> [*] Always learning | Always hacking
+> [*] Constantly coding | Constantly learning new technologies
+> [*] 24/7 in development mode | Always improving skills
+> [*] Passionate about backend architecture & system design
 ```
 
 ---
@@ -261,38 +262,35 @@ $ tree -L 1 ~/projects/ -d
 
 ---
 
-## [*] GITHUB STATS
-
-```bash
-$ curl -s https://api.github.com/users/stadolnikanton | jq '.public_repos, .followers, .following'
-```
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=stadolnikanton&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=stadolnikanton&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Langs" />
-  <br/>
-  <img src="https://github-readme-streak-stats.demolab.com/?user=stadolnikanton&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
-</p>
-
----
-
-## [*] CURRENTLY LEARNING
+## [*] CURRENTLY LEARNING & CODING
 
 ```bash
 $ cat ~/learning.txt
+> [*] Constantly learning new technologies and frameworks
+> [*] Daily coding practice | Building projects 24/7
 > [*] AWS Advanced Services (RDS, ELB, Route53)
 > [*] Distributed Systems & Microservices
 > [*] CI/CD Pipelines
 > [*] Advanced Docker & Orchestration
-> [*] Preparing for diploma project defense
+> [*] Always exploring new backend patterns
 ```
 
 ```bash
-$ ps aux | grep learning
+$ ps aux | grep -E "(python|code|learning)"
 anton    12345  0.5  2.1  /usr/bin/python3 -m learning.aws
 anton    12346  0.3  1.8  /usr/bin/python3 -m learning.distributed_systems
 anton    12347  0.2  1.5  /usr/bin/python3 -m learning.cicd
+anton    12348  1.2  3.5  /usr/bin/code --new-window
+anton    12349  0.8  2.8  /usr/bin/python3 app/main.py
+> [*] Active processes: 5
+> [*] Status: Always coding | Always learning
+```
+
+```bash
+$ watch -n 1 'git log --oneline --all | head -10'
+> [*] Recent commits show constant development activity
+> [*] Multiple projects in active development
+> [*] Daily commits | Continuous improvement
 ```
 
 ---
@@ -323,8 +321,9 @@ $ netstat -tuln | grep -E ":(22|80|443|8000)"
 ║   $ echo "Thanks for visiting! 🚀"                        ║
 ║   $ echo "Happy hacking! 💻"                              ║
 ║                                                           ║
-║   [*] System uptime: $(uptime -p)                        ║
+║   [*] System uptime: $(uptime -p)                          ║
 ║   [*] Last login: $(last -1 -F | head -1)                 ║
+║   [*] Status: Always coding | Always learning              ║
 ║                                                           ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
