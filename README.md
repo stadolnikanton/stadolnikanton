@@ -321,9 +321,9 @@ $ netstat -tuln | grep -E ":(22|80|443|8000)"
 ║   $ echo "Thanks for visiting! 🚀"                        ║
 ║   $ echo "Happy hacking! 💻"                              ║
 ║                                                           ║
-║   [*] System uptime: $(uptime -p)                          ║
+║   [*] System uptime: $(uptime -p)                         ║
 ║   [*] Last login: $(last -1 -F | head -1)                 ║
-║   [*] Status: Always coding | Always learning              ║
+║   [*] Status: Always coding | Always learning             ║
 ║                                                           ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
